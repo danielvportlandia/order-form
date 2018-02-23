@@ -34,7 +34,7 @@ h2 {
     text-align: center;
     margin-top: 50px;
     padding: 15px;
-    width: 60%;
+    width: 30%;
     background-color: rgb(242, 159, 78);
     border: 5px solid rgb(251, 205, 0);
     border-radius: 2%;
@@ -47,7 +47,6 @@ body {
 }
 
 main {
-    width: 1000px;
     margin-left: 20px; 
 }
 
@@ -55,7 +54,6 @@ main {
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 60%;
     border: 10px solid rgb(251, 205, 0);
     border-radius: 2%;
     background-color: rgb(68, 131, 206);
@@ -80,10 +78,26 @@ caption {
     color: black;
 }
 
+#shoppingList {
+    height: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid rgb(251, 205, 0);
+    border-radius: 2%;
+    background-color: rgb(68, 131, 206);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 img {
+    float: left;
     height: 300px;
     width: 300px;
     margin-top: 5px;
+}
+
+caption {
+    clear: both;
+    float: left;
 }
 
 ul li:nth-child(2n) {
